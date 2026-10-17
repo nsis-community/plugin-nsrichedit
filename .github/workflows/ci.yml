@@ -29,4 +29,5 @@ jobs:
             Contrib/nsRichEdit/nsRichEdit.rc
             .github/compat/nsis3.c
           strict: false
+          targets: x86-ansi,x86-unicode
           release: ${{ github.event_name == 'release' }}
